@@ -1,0 +1,80 @@
+{
+  "videos": [
+    {
+      "id": "1884",
+      "title": "Enjoy the Silence",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/DepecheModeEnjoyTheSilence.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=ojvldIzbaMo",
+      "category": "Música",
+      "description": "Canción"
+    },
+    {
+      "id": "a0e7",
+      "title": "Wicked Game",
+      "image": "https://akamai.sscdn.co/uploadfile/letras/albuns/1/e/c/f/324011388665102.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=oadhHk2xs6c",
+      "category": "Música",
+      "description": "Canción"
+    },
+    {
+      "id": "ff2a",
+      "title": "Shape of my Heart",
+      "image": "https://i.scdn.co/image/ab67616d0000b273653b110d9560eb1656f4c583",
+      "videoUrl": "https://www.youtube.com/watch?v=NlwIDxCjL-8",
+      "category": "Música",
+      "description": "Canción"
+    },
+    {
+      "id": "9bc6",
+      "title": "Cheri Cheri Lady",
+      "image": "https://cdn-images.dzcdn.net/images/cover/e087110af2549642da54098a5c14b7ab/500x500.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=lyWqQ4KzlzQ",
+      "category": "Música",
+      "description": "Canción"
+    },
+    {
+      "id": "7775",
+      "title": "La Isla Bonita",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Madonna%2C_La_Isla_Bonita_cover.png",
+      "videoUrl": "https://www.youtube.com/watch?v=zpzdgmqIHOQ",
+      "category": "Música",
+      "description": "Canción"
+    },
+    {
+      "id": "b415",
+      "title": "Addicted To You",
+      "image": "https://i.scdn.co/image/ab67616d0000b273914bb61820584f9109d18847",
+      "videoUrl": "https://www.youtube.com/watch?v=Qc9c12q3mrc",
+      "category": "Electrónica",
+      "description": "Canción electrónica"
+    },
+    {
+      "id": "633a",
+      "title": "Body Talk (Mammoth)",
+      "image": "https://i1.sndcdn.com/artworks-000089747086-bckmey-t500x500.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=yldN7geOZfc",
+      "category": "Electrónica",
+      "description": "Canción electrónica."
+    },
+    {
+      "id": "d2be",
+      "title": "Higher Place",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e92b76c1585c4ea69f9430e5",
+      "videoUrl": "https://www.youtube.com/watch?v=CDLTmBiY3mg",
+      "category": "Electrónica",
+      "description": "Canción electrónica."
+    }
+  ],
+  "categories": [
+    {
+      "id": "d927",
+      "name": "Música",
+      "color": "#E81E2C"
+    },
+    {
+      "id": "1783",
+      "name": "Electrónica",
+      "color": "#ABCC78"
+    }
+  ]
+}

@@ -1,3 +1,2 @@
 # AluraFlix
 
-![Uploading image.png…]()

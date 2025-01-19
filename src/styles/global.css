@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+.header {
+  background-color: #e50914;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: "Lilita One", serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: bold;
+  
+}
+
+.footer {
+  margin: 0;
+  text-align: center;
+  background-color: #e50914;
+  font-family: "Lilita One", serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.desarrollo{
+  margin: 0;
+  text-align: center;
+  background-color: #e50914;
+  font-family: "Lilita One", serif;
+  font-size: clamp(1rem, 4vw, 1rem);
+}
+
+.header button {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #e50914;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  font-size: clamp(0.875rem, 2vw, 1rem);
+  white-space: nowrap;
+}
+
+.header button:hover {
+  background-color: white;
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.75rem;
+  }
+}
+

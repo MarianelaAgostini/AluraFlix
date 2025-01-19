@@ -1,0 +1,63 @@
+.video-list-container {
+  position: relative;
+}
+
+.video-list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 20px max(20px, 4vw);
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.video-list::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: clamp(40px, 8vw, 60px);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 2;
+  transition: all 0.2s ease;
+  opacity: 0;
+}
+
+.video-list-container:hover .scroll-button {
+  opacity: 1;
+}
+
+.scroll-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.left-button {
+  left: 0;
+}
+
+.right-button {
+  right: 0;
+}
+
+/* Hide scroll buttons on touch devices and small screens */
+@media (hover: none), (max-width: 768px) {
+  .scroll-button {
+    display: none;
+  }
+
+  .video-list {
+    padding: 20px 10px;
+  }
+}
+
